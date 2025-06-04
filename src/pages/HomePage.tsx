@@ -16,12 +16,12 @@ const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50 p-4">
       <div className="max-w-md mx-auto">
-        <div className="flex items-center justify-center mb-8">
+        <div className="flex items-center justify-center mb-4">
           <Nail size={32} className="text-pink-500 mr-2" />
           <h1 className="text-2xl font-serif font-medium text-gray-800">NailArtistry</h1>
         </div>
 
-        <div className="bg-white rounded-lg shadow-md p-6 mb-6 text-center">
+        <div className="bg-white rounded-lg shadow-md px-6 py-4 mb-6 text-center">
           <h2 className="text-xl font-medium text-gray-800 mb-3">
             Добро пожаловать в NailArtistry!
           </h2>
@@ -62,7 +62,7 @@ const HomePage: React.FC = () => {
           </button>
         </div>
 
-        <div className="mt-8 text-center text-gray-600 text-sm">
+        <div className="mt-6 text-center text-gray-600 text-sm">
           <p>ул. Красоты, 123, Москва</p>
           <p>Телефон: +7 (495) 123-45-67</p>
           <p>Ежедневно: 9:00 - 21:00</p>
